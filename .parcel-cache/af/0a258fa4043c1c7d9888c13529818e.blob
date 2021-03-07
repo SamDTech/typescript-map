@@ -413,7 +413,7 @@ function hmrAcceptRun(bundle, id) {
 new google.maps.Map(document.getElementById('map'), {
   zoom: 1,
   center: {
-    lat: 14,
+    lat: 0,
     lng: 0
   }
 });

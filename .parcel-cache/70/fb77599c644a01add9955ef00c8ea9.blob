@@ -410,10 +410,10 @@ function hmrAcceptRun(bundle, id) {
 },{}],"7843b3960e086726267ff606847fc92b":[function(require,module,exports) {
 // import { Company } from "./Company";
 // import { User } from "./User";
-new google.maps.Map(document.getElementById('map'), {
+const map = new google.maps.Map(document.getElementById('map'), {
   zoom: 1,
   center: {
-    lat: 14,
+    lat: 0,
     lng: 0
   }
 });
