@@ -1,0 +1,4 @@
+// import { Company } from "./Company";
+// import { User } from "./User";
+const map = document.querySelector;
+new google.maps.Map();

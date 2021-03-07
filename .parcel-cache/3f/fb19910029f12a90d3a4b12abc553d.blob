@@ -1,0 +1,11 @@
+"use strict";
+
+var _Company = require("./Company");
+
+var _User = require("./User");
+
+const user = new _User.User();
+const company = new _Company.Company();
+console.log(user);
+console.log(company);
+google;

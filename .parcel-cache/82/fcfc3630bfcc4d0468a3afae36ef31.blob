@@ -1,0 +1,5 @@
+// import { Company } from "./Company";
+// import { User } from "./User";
+// const map = document.getElementById('map');
+// new google.maps.Map(map);
+google;
