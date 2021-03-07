@@ -14,6 +14,7 @@
     "parcel": "^2.0.0-beta.1"
   },
   "dependencies": {
+    "@types/faker": "^5.1.7",
     "faker": "^5.4.0"
   }
 }

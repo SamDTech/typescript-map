@@ -1,4 +1,4 @@
-import faker from 'faker'
+import faker from 'faker';
 
 class User {
   name: string;
@@ -7,7 +7,11 @@ class User {
     lng: string;
   };
 
-  constructor(){
-
+  constructor() {
+    this.name = faker.name.firstName();
+    this.location = {
+      lat: faker.address.latitude(),
+      lng: faker.address.longitude(),
+    };
   }
 }
