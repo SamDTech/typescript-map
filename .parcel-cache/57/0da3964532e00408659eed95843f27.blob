@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="map" style="height: 100%"></div>
+
+    <script src="f90bb2cd147e0c202156c83836229c66"></script>
+    <script src="1927c12db10945d367de53c607f2d673"></script>
+    <script src="fe010aa23851143584fde2b37486be4c"></script>
+  </body>
+</html>
