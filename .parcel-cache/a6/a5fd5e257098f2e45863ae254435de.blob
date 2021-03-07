@@ -408,35 +408,8 @@ function hmrAcceptRun(bundle, id) {
   acceptedAssets[id] = true;
 }
 },{}],"7843b3960e086726267ff606847fc92b":[function(require,module,exports) {
-"use strict";
-
-var _customMap = require("./customMap");
-
 // import { Company } from "./Company";
 // import { User } from "./User";
-new _customMap.CustomMap('map');
-},{"./customMap":"bedf7514f83625b0461551ed8fab2d31"}],"bedf7514f83625b0461551ed8fab2d31":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.CustomMap = void 0;
-
-class CustomMap {
-  constructor(divId) {
-    this.googleMap = new google.maps.Map(document.getElementById(divId), {
-      zoom: 1,
-      center: {
-        lat: 14,
-        lng: 0
-      }
-    });
-  }
-
-}
-
-exports.CustomMap = CustomMap;
 },{}]},{},["cf704db2f4d91d05c8f39f035773a996","7843b3960e086726267ff606847fc92b"], null)
 
 //# sourceMappingURL=maps.c683f77c.js.map

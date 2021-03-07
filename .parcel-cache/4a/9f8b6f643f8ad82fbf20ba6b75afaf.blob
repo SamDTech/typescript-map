@@ -1,0 +1,21 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.CustomMap = void 0;
+
+class CustomMap {
+  constructor() {
+    this.googleMap = new google.maps.Map(document.getElementById('map'), {
+      zoom: 1,
+      center: {
+        lat: 14,
+        lng: 0
+      }
+    });
+  }
+
+}
+
+exports.CustomMap = CustomMap;

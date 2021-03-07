@@ -1,0 +1,8 @@
+"use strict";
+
+var _customMap = require("./customMap");
+
+// import { Company } from "./Company";
+// import { User } from "./User";
+co;
+new _customMap.CustomMap();
