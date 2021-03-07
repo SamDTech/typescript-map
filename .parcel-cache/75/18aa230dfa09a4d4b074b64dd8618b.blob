@@ -410,15 +410,12 @@ function hmrAcceptRun(bundle, id) {
 },{}],"7843b3960e086726267ff606847fc92b":[function(require,module,exports) {
 "use strict";
 
-var _Company = require("./Company");
-
 var _User = require("./User");
 
 const user = new _User.User();
-const company = new _Company.Company();
+const company = new C();
 console.log(user);
-console.log(company);
-},{"./User":"5c5b319dab638520bcc257fa8347c7d1","./Company":"466b1f13b8dbee287f4353cd033807a3"}],"5c5b319dab638520bcc257fa8347c7d1":[function(require,module,exports) {
+},{"./User":"5c5b319dab638520bcc257fa8347c7d1"}],"5c5b319dab638520bcc257fa8347c7d1":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -123372,31 +123369,6 @@ module["exports"] = [
   "09##-######"
 ];
 
-},{}],"466b1f13b8dbee287f4353cd033807a3":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.Company = void 0;
-
-var _faker = _interopRequireDefault(require("faker"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-class Company {
-  constructor() {
-    this.companyName = _faker.default.company.companyName();
-    this.catchPhrase = _faker.default.company.catchPhrase();
-    this.location = {
-      lat: parseFloat(_faker.default.address.latitude()),
-      lng: parseFloat(_faker.default.address.longitude())
-    };
-  }
-
-}
-
-exports.Company = Company;
-},{"faker":"0021d18d7599be4aaa9bee4414df31e9"}]},{},["cf704db2f4d91d05c8f39f035773a996","7843b3960e086726267ff606847fc92b"], null)
+},{}]},{},["cf704db2f4d91d05c8f39f035773a996","7843b3960e086726267ff606847fc92b"], null)
 
 //# sourceMappingURL=maps.c683f77c.js.map

@@ -1,0 +1,7 @@
+"use strict";
+
+var _User = require("./User");
+
+const user = new _User.User();
+const company = new Compa();
+console.log(user);

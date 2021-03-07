@@ -417,7 +417,7 @@ var _User = require("./User");
 const user = new _User.User();
 const company = new _Company.Company();
 console.log(user);
-console.log(company);
+console.log(conpany);
 },{"./User":"5c5b319dab638520bcc257fa8347c7d1","./Company":"466b1f13b8dbee287f4353cd033807a3"}],"5c5b319dab638520bcc257fa8347c7d1":[function(require,module,exports) {
 "use strict";
 
