@@ -85,6 +85,6 @@ SOFTWARE.
 ## Author Info
 
 - Twitter - [@dev_tolu](https://twitter.com/dev_tolu)
-- github - [James Q Quick](https://github.com/samdtech)
+- github - [Sam](https://github.com/samdtech)
 
 [Back To The Top](#Typescript-Map)
