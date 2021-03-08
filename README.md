@@ -1,8 +1,8 @@
-# Read Me Template
+# Typescript Map
 
 ![Project Image](project-image-url)
 
-> This is a ReadMe template to help save you time and effort.
+> A typescript integrated map
 
 ---
 
@@ -19,15 +19,17 @@ You're sections headers will be used to reference location of destination.
 
 ## Description
 
-Creating ReadMe's for your Github repository can be tedious.  I hope this template can save you time and effort as well as provide you with some consistency across your projects.
+A typescript application who allow a random generation of name and company name with address. Help display the address or location on google map and add a marker.
 
 #### Technologies
 
 
-- Technology 1
-- Technology 2
+- Typescript
+- axios
+- Faker Api
+- Google Map
 
-[Back To The Top](#read-me-template)
+[Back To The Top](#Typescript-Map)
 
 ---
 
@@ -35,19 +37,20 @@ Creating ReadMe's for your Github repository can be tedious.  I hope this templa
 
 #### Installation
 
+`npm install`
 
 
 #### API Reference
 
 ```html
-    <p>dummy code</p>
+  <a href='https://maps.googleapis.com/maps'></a>
 ```
-[Back To The Top](#read-me-template)
+[Back To The Top](#Typescript-Map)
 
 ---
 
 ## References
-[Back To The Top](#read-me-template)
+[Back To The Top](#Typescript-Map)
 
 ---
 
@@ -55,7 +58,7 @@ Creating ReadMe's for your Github repository can be tedious.  I hope this templa
 
 MIT License
 
-Copyright (c) [2017] [James Q Quick]
+Copyright (c) [2021] [Opeyemi Samuel]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -75,13 +78,13 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[Back To The Top](#read-me-template)
+[Back To The Top](#Typescript-Map)
 
 ---
 
 ## Author Info
 
-- Twitter - [@jamesqquick](https://twitter.com/jamesqquick)
-- Website - [James Q Quick](https://jamesqquick.com)
+- Twitter - [@dev_tolu](https://twitter.com/dev_tolu)
+- github - [James Q Quick](https://github.com/samdtech)
 
-[Back To The Top](#read-me-template)
+[Back To The Top](#Typescript-Map)
